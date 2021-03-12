@@ -1,2 +1,11 @@
 # GNN-LF/HF
-Interpreting and Unifying Graph Neural Networks with An Optimization Framework
+
+Source Code for WWW2021 : Interpreting and Unifying Graph Neural Networks with An Optimization Framework
+
+(Upload Soon!!)
+
+Paper: 
+
+PPT:
+
+
