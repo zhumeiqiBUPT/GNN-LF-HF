@@ -23,12 +23,32 @@ Source Code for WWW2021 : Interpreting and Unifying Graph Neural Networks with A
 
 ## Usage
 
-## Input Parameters
-* __required__ -d/--dataset (required): 
-* -t (required): 
-* -f (required): 
-* -l/--labelrate:
+### Input Parameters
+* *(required)* -d/--dataset: name for datasets, i.e., cora/citeseer/pubmed/acm/wiki/ms.
+* *(required)* -t: model type, PPNP = 0; GNN-LF = 1; GNN-HF = 2.
+* *(required)* -f: propagation form, closed-form = 0; iterative-form = 1.
+* -l/-labelrate: training rate, i.e., 20 nodes per class for training, default = 20.
+* --niter: times for iteration, default = 10.
+* --device: GPU number. 
+* --reg_lambda: weight for regularization, default = 5e-3.
+* --lr: learning rate, default = 0.01
 
+
+### Command
+
+* Closed-form GNN-LF:
+```
+python main.py --dataset=cora -t=1 -f=0 --device=0
+```
+* Iter-form GNN-LF:
+```
+python main.py --dataset=cora -t=1 -f=1 --device=0
+```
+
+## Cite
+
+
+## Contact 
 
 If you have any questions, please feel free to contact me with zhumeiqi@bupt.edu.cn 
 
