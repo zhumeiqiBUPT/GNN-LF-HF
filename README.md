@@ -21,6 +21,8 @@ Source Code for WWW2021 : Interpreting and Unifying Graph Neural Networks with A
 * **Wiki-CS**: [Wiki-CS: A Wikipedia-Based Benchmark for Graph Neural Networks.](https://github.com/pmernyei/wiki-cs-dataset)  
 * **MS-Academic**: [Predict then Propagate: Graph Neural Networks meet Personalized PageRank.](https://github.com/klicperajo/ppnp)  
 
+***For wiki-cs dataset, please copy data files [Here](https://github.com/pmernyei/wiki-cs-dataset/tree/master/dataset) to path "/data/wiki/"***
+
 ## Usage
 
 ### Input Parameters
