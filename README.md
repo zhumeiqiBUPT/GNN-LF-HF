@@ -49,6 +49,18 @@ python main.py --dataset=cora -t=1 -f=1 --device=0
 
 ## Cite
 
+Please cite our paper if you use this code in your own work:
+
+````
+@inproceedings{zhu2021interpreting,
+  title={Interpreting and Unifying Graph Neural Networks with An Optimization Framework},
+  author={Zhu, Meiqi and Wang, Xiao and Shi, Chuan and Ji, Houye and Cui, Peng},
+  booktitle={Proceedings of the Web Conference 2021},
+  pages={1215--1226},
+  year={2021}
+}
+````
+
 
 ## Contact 
 
