@@ -61,7 +61,6 @@ Please cite our paper if you use this code in your own work:
 }
 ````
 
-
 ## Contact 
 
 If you have any questions, please feel free to contact me with zhumeiqi@bupt.edu.cn 
